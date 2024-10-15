@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: rgb(0, 0, 33);
+    color: white;
+     
+}
+.left{
+    font-size: 2.5rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgb(23, 23, 43);
+    padding-left: 20px;
+}
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: 0 23px;
+    cursor: pointer;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(148, 148, 236)
+}
+.firstsection{
+    justify-content: space-around;
+    margin: 185px 0;
+    margin-bottom: 0;
+}
+.firstsection >div{
+    width: 30%;
+}
+.leftsection{
+    font-size: 3.26rem;
+    margin: 149px 0px;
+    position: relative;
+    top: -31vh;
+    
+}
+.rightsection{
+    
+}
+.rightsection img{
+    /* top: 108vh; */
+    bottom: 7vh;
+    position: absolute;
+    width: 30%;
+    height: auto;
+    /* left: 871px; */
+    right: 9%;
+}
+.secondsection{
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 450px;
+}
+main hr{
+    border: 0;
+    height: 1px;
+    background-color: #9c97f1;
+    margin:40px 84px;
+}
+.secondsection h1{
+    font-size: 1.9rem;
+}
+.box{
+    background: white;
+    width: 78%;
+    /* border: 1px; */
+    height: 2px;
+    margin: 56px 152px;  
+    /* justify-content: space-between; */
+    display: flex;
+    gap: 54px;
+}
+.vertical{
+    height: 100px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+footer{
+    background-color: rgb(29 22 35);
+    height: 233px;
+    max-width: auto;
+    margin: auto;
+    padding: 20px 20px;
+    justify-content: space-evenly;
+}
+.footer-first{
+    width: 175px;
+    color: #d3c9c9;;
+}
+footer div ul li{
+    list-style: none;
+    padding: 6px;
+}
+footer div ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.leftsection btn{
+    padding: 12px;
+    position: relative;
+    left: 124px;
+}
+.bttn{
+    background-color: rgb(0, 0, 33);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 51px;
+    width: 185px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s ease-out;
+    gap: 2px;
+    margin-right: 15px;
+}
+
+.bttn:hover{
+    font-size: 21px;
+    background-color: rgb(154, 154, 160) ;
+}
+
+
+.about-section {
+    padding: 40px 0; /* Reduced padding */
+    background-color: #171738;
+    border-radius: 15px;
+    width: 80%;
+    margin: 0 auto; /* No vertical margin */
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15%;
+}
+
+.about-container {
+    text-align: center;
+    color: white;
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #8b4fdc;
+}
+
+.about-content {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.code-highlight {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+a.purple:hover {
+    color: #9c97f1;
+    text-decoration: underline;
+}
+
+.section-divider {
+    border: none;
+    height: 2px;
+    background-color: #9c97f1;
+    margin: 0 auto; /* Center the line */
+    width: 89%; /* Line width matching the sections */
+    margin-bottom: 100px;
+}
+
+
+/* Footer Styling */
+.contact-footer {
+    background-color: rgb(23, 23, 43);
+    padding: 30px 20px;
+    text-align: center;
+    height: 27vh;
+    color: white;
+    box-shadow: 0px -8px 24px rgba(0, 0, 0, 0.3);
+    margin-top: 50px;
+}
+.footer-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #8b4fdc;
+    text-transform: uppercase;
+}
+
+.contact-columns {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 0vh;
+    gap: 150px; /* Space between columns */
+    padding-top: 20px;
+}
+
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+
+.contact-list li {
+    margin: 15px 0;
+}
+
+.contact-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: color 0.3s, transform 0.2s;
+}
+
+.contact-list a:hover {
+    color: rgb(148, 148, 236);
+    transform: scale(1.1); /* Subtle zoom effect on hover */
+}
+
+.contact-list i {
+    font-size: 2rem;
+}
+
+/* Icon Styling */
+.contact-list img {
+    width: 30px;
+    height: 30px;
+    filter: invert(1); /* Makes sure icons are visible on dark backgrounds */
+}
+
+
+@media (max-width: 768px) {
+    .contact-columns {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .contact-list a {
+        font-size: 1.3rem;
+    }
+
+    .contact-list i {
+        font-size: 1.8rem;
+    }
+}

@@ -1,0 +1,47 @@
+.flex{
+    display: flex;
+}
+.jsutify{
+    justify-content: center;
+}
+.align{
+    align-items: center;
+}
+.purple{
+    color: #8b4fdc;
+}
+#element{
+    color: #8b4fdc;
+}
+.text-gray{
+    color: gray;
+}
+.vertical-image{
+    width: 34px;
+    position: relative;
+    bottom: 41px;
+    right: 9px;;
+}
+.vertical-title{
+    position: relative;
+    width: 116px;
+    top: 75px;
+    right: 7px;
+}
+.vertical-description{
+    position: relative;
+    top: 83px;
+    right: 6px;
+    width: 174px;
+    font-size: 9px;
+    color: gray;
+}
+/* For Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(23, 23, 43);
+    border-radius: 6px;
+  }

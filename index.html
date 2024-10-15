@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- Preconnect to Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+        <!-- Consolidated Google Fonts link -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="utility.css">
+    
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+        <!-- Title -->
+        <title>RIYA-Developer Portfolio</title>
+    </head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <div>Riya's Portfolio</div>
+            </div>
+            <div class="right">
+                <ul class="flex">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="/">Project</a></li>
+                    <li><a href="#footer-scroll">Contact me</a></li>
+                </ul </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection flex">
+            <div class="leftsection align">
+                Hi , My name is <span class="purple">Riya</span>
+                <div style="width: 589px;">and i am a passionate</div>
+                <span id="element"></span>
+                <div class="btn" style="display: flex;">
+                    <a href="Resume.pdf"><button class="bttn">Download Resume</button></a>
+                    <a href="https://github.com/Riya1802Lodha"><button class="bttn">Github</button></a>
+                    <a href="https://www.linkedin.com/in/riyalodha-programmer/"><button class="bttn">Linkedin</button></a>
+
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        
+    </main>
+
+    <main>
+        <hr class="section-divider">  <!-- Horizontal line between sections -->
+    
+        <section class="about-section flex" id="about">
+            <div class="about-container">
+                <h1>About Me</h1>
+                <p class="about-content">
+                    Hi, I’m <span class="purple">Riya Lodha</span>, a techie with a passion for turning complex problems into 
+                    innovative, user-friendly solutions. With a solid academic foundation and hands-on experience in leading 
+                    projects that blend creativity and precision with cutting-edge tech, I focus on making technology work for people.
+                </p>
+                <p class="about-content">
+                    From software development to technical writing and project management, I thrive on finding smarter, 
+                    more efficient ways to solve challenges. If it involves coding (<span class="code-highlight">C, C++, Java, Python</span>), 
+                    cracking algorithms, or diving into new tech trends—count me in!
+                </p>
+                <p class="about-content">
+                    When I’m not coding, you’ll find me exploring the latest in technology. Ready to collaborate and build something amazing? 
+                    Let’s <a href="#footer-scroll" class="purple">connect</a>!
+                </p>
+            </div>
+        </section>
+    </main>
+    
+
+<!-- 
+    <footer class="flex" id="footer-scroll">
+        <div class="footer-first">
+            <h3>Riya's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Service</a></li>
+                <li><a href="/">Project</a></li>
+                <li><a href="/">Contact me</a></li>
+            </ul>
+        </div>
+        <div class="footer-third">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Service</a></li>
+                <li><a href="/">Project</a></li>
+                <li><a href="/">Contact me</a></li>
+            </ul>
+        </div>
+        <div class="footer-fourth">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Service</a></li>
+                <li><a href="/">Project</a></li>
+                <li><a href="/">Contact me</a></li>
+            </ul>
+        </div>
+    </footer> -->
+
+
+
+<!-- Include Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+<footer class="contact-footer" id="footer-scroll">
+    <div class="footer-container">
+        <h2>Contact Me</h2>
+        <div class="contact-columns">
+            <ul class="contact-list">
+                <li>
+                    <a href="https://www.instagram.com/_riya1802/" target="_blank">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/riyalodha-programmer/" target="_blank">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </li>
+            </ul>
+            <ul class="contact-list">
+                <li>
+                    <a href="mailto:riyalodha1802@gmail.com">
+                        <i class="fas fa-envelope"></i> Gmail
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Riya1802Lodha" target="_blank">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Developer.', 'Content Writer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
+
+
+
+
