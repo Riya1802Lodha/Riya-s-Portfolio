@@ -628,7 +628,7 @@ a{
 }
 
 .contactus-sub-heading{
-  font-size:3rem;
+  font-size:2rem;
   color:#343d68aa;
   text-transform: capitalize;
 }
@@ -978,9 +978,6 @@ footer{
     position: relative;
     left: -16%;
   }
-  .nav-items{
-    gap: 1.7rem;
-  }
   .skills-logo{
     width: 70%;
     height: auto;
@@ -1030,6 +1027,9 @@ footer{
   }
   .skill-fade-text{
     z-index: -1;
+  }
+  .logo{
+    padding-bottom: 20%;
   }
   .footer-faded-text{
     opacity: 0.2;
