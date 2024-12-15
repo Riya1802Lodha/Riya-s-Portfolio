@@ -387,7 +387,7 @@
       <h1 class="contactus-heading">Contact me</h1>
 
       <h5 class="contactus-sub-heading">
-        Have project in mind or just want to connect? Let's collaborate to bring 
+        Have project in mind or just want to connect? Let's collaborate to bring
         innovative solutions to life.
       </h5>
 
@@ -521,11 +521,25 @@
       const popup = document.createElement('div');
       popup.classList.add('popup');
       popup.innerHTML = `
-        <span class="popup-close" onclick="this.parentElement.style.display='none'">&times;</span>
-        <img class="popup-content" src="${imageSrc}" alt="Certificate">
-    `;
+    <span class="popup-close" onclick="closePopup(this.parentElement)">&times;</span>
+    <img class="popup-content" src="${imageSrc}" alt="Certificate">
+  `;
+
+      // Add an event listener to close the popup when clicking outside the image
+      popup.addEventListener('click', function (event) {
+        if (event.target === popup) {
+          closePopup(popup);
+        }
+      });
+
       document.body.appendChild(popup);
       popup.style.display = 'block';
+    }
+
+    // Close the popup
+    function closePopup(popupElement) {
+      popupElement.style.display = 'none';
+      document.body.removeChild(popupElement); // Remove the popup from the DOM
     }
 
     // Add event listeners to start and stop the slider on mouse over and mouse out
