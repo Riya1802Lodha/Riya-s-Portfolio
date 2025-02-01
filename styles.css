@@ -286,6 +286,10 @@ a{
     left: 50%;
     animation:shakeEffectPlus 5s ease-in infinite;
   }
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
 
   @keyframes shakeEffectPlus {
     50%{
